@@ -1,0 +1,3793 @@
+    array (size=173)
+      0 => 
+        object(stdClass)[208]
+          public 'sellFormId' => int 1
+          public 'sellFormTitle' => string 'Nazwa przedmiotu' (length=16)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 1
+          public 'sellFormResType' => int 1
+          public 'sellFormDefValue' => int 0
+          public 'sellFormOpt' => int 1
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 50
+          public 'sellMinValue' => string '0.00' (length=4)
+          public 'sellMaxValue' => string '0.00' (length=4)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string 'Tytuł powinien być zwięzły i bezpośrednio wskazywać, co masz do zaoferowania. W tytule możesz użyć maksymalnie 50 znaków.
+<hr>
+<u>Tworząc tytuł skorzystaj z kilku porad.</u>
+<ul><li>Używaj w tytule nazwy sprzedawanego przedmiotu.
+<li>Używaj słów, które określają lepiej to, co sprzedajesz - podaj markę produktu, autora (np. w przypadku książki).
+<li>Zrezygnuj ze słów typu "polecam", "zobacz koniecznie!" itp..
+<li>Nie trać miejsca na niepotrzebne znaki,  jak umieszczane w tytule'... (length=1683)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      1 => 
+        object(stdClass)[209]
+          public 'sellFormId' => int 2
+          public 'sellFormTitle' => string 'Kategoria' (length=9)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int 0
+          public 'sellFormOpt' => int 1
+          public 'sellFormPos' => int 2
+          public 'sellFormLength' => int 500
+          public 'sellMinValue' => string '1.00' (length=4)
+          public 'sellMaxValue' => string '0.00' (length=4)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string 'Dokładnie określ kategorię przedmiotu' (length=40)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      2 => 
+        object(stdClass)[210]
+          public 'sellFormId' => int 3
+          public 'sellFormTitle' => string 'Data rozpoczęcia' (length=17)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 9
+          public 'sellFormResType' => int 9
+          public 'sellFormDefValue' => int 0
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 3
+          public 'sellFormLength' => int 11
+          public 'sellMinValue' => string '0.00' (length=4)
+          public 'sellMaxValue' => string '0.00' (length=4)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string 'Samodzielne planowanie terminu rozpoczęcia aukcji przydaje się zwłaszcza przy zarządzaniu dużą liczbą aukcji.Możesz wystawić wiele aukcji, które zakończą się w tym samym czasie.<br>
+Planowane wystawianie jest także przydatne w sytuacjach, gdy wiesz, że chwilowo nie będziesz mieć dostępu do Internetu (wakacyjne wyjazdy itp.).
+<hr>
+Wszystkie aukcje planowane (a więc nie rozpoczynające się zaraz po wystawieniu) znajdą się na liście aukcji planowanych do wystawienia (strona <i>Moje Al'... (length=1157)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      3 => 
+        object(stdClass)[211]
+          public 'sellFormId' => int 4
+          public 'sellFormTitle' => string 'Czas trwania' (length=12)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 4
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int 2
+          public 'sellFormOpt' => int 1
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 2
+          public 'sellMinValue' => string '0.00' (length=4)
+          public 'sellMaxValue' => string '99.00' (length=5)
+          public 'sellFormDesc' => string '3|5|7|10|14|30|Do wyczerpania' (length=29)
+          public 'sellFormOptsValues' => string '0|1|2|3|4|5|99' (length=14)
+          public 'sellFormFieldDesc' => string '"Przy wystawieniu na 14 dni - pobierana jest opłata 0,20 zł, przy wystawieniu "do wyczerpania" opłaty pobierane cyklicznie"' (length=126)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      4 => 
+        object(stdClass)[212]
+          public 'sellFormId' => int 5
+          public 'sellFormTitle' => string 'Liczba sztuk' (length=12)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int 1
+          public 'sellFormOpt' => int 1
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 9
+          public 'sellMinValue' => string '1.00' (length=4)
+          public 'sellMaxValue' => string '100000.00' (length=9)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string 'W Allegro możesz sprzedawać przedmioty poprzez licytację lub po stałej cenie (wybierając <u>tylko opcję "Kup Teraz!"</u>). 
+<br>W tym drugim przypadku - ustalasz stałą cenę - Kupujący znają cenę przedmiotu i mogą go kupić natychmiast bez licytowania. <br>
+W przypadku <u>licytacji</u> - nie znasz ostatecznej ceny, jaką osiągnie przedmiot. Kupujący składają oferty i przebijają stawki innych osób przy pomocy systemu automatycznej licytacji aż do końca trwania aukcji. <br>Kiedy wybierze'... (length=2750)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      5 => 
+        object(stdClass)[213]
+          public 'sellFormId' => int 6
+          public 'sellFormTitle' => string 'Cena wywoławcza' (length=16)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int 0
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 6
+          public 'sellFormLength' => int 13
+          public 'sellMinValue' => string '0.00' (length=4)
+          public 'sellMaxValue' => string '0.00' (length=4)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string 'Cena, od której rozpocznie się licytacja. Najniższa cena wywoławcza to <b>1 zł</b>.' (length=88)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      6 => 
+        object(stdClass)[214]
+          public 'sellFormId' => int 7
+          public 'sellFormTitle' => string 'Cena minimalna' (length=14)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int 0
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 7
+          public 'sellFormLength' => int 13
+          public 'sellMinValue' => string '0.00' (length=4)
+          public 'sellMaxValue' => string '0.00' (length=4)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string 'Cena minimalna, która występuje w niektórych aukcjach, to najniższa kwota, za jaką Sprzedający zgadza się sprzedać wystawiony przedmiot. Wysokość ceny minimalnej jest ukryta do momentu jej przekroczenia przez Kupujących.
+<hr>
+Jeśli widzisz napis <i>cena minimalna nie została osiągnięta</i>: oznacza to, że na aukcji nie złożono ofert kupna lub wysokość złożonych ofert nie przekroczyła ustalonej przez Sprzedającego ceny minimalnej. Żadna ze złożonych dotychczas ofert nie jest wią'... (length=1391)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      7 => 
+        object(stdClass)[215]
+          public 'sellFormId' => int 8
+          public 'sellFormTitle' => string 'Cena "Kup Teraz!"' (length=17)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int 0
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 8
+          public 'sellFormLength' => int 13
+          public 'sellMinValue' => string '0.00' (length=4)
+          public 'sellMaxValue' => string '0.00' (length=4)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string 'Opcja <font color=green>Kup Teraz!</font> umożliwia sprzedaż przedmiotu bez licytacji za stałą cenę. Najniższa cena <font color=green>Kup Teraz!</font> to <b>1 zł</b>.
+<hr>
+W przypadku wyboru sprzedaży przez licytację (a więc gdy cena wywoławcza jest ustawiona) opcja ta jest płatna i wynosi <b>0,50 zł</b>. Opłata ta <u>nie podlega</u> zwrotowi.
+<hr>
+Jeśli chcesz sprzedać swój przedmiot szybko i za określoną przez siebie cenę, w formularzu sprzedaży podaj cenę <font color=green>Kup '... (length=1695)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      8 => 
+        object(stdClass)[216]
+          public 'sellFormId' => int 9
+          public 'sellFormTitle' => string 'Kraj' (length=4)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int 0
+          public 'sellFormOpt' => int 1
+          public 'sellFormPos' => int 9
+          public 'sellFormLength' => int 50
+          public 'sellMinValue' => string '0.00' (length=4)
+          public 'sellMaxValue' => string '0.00' (length=4)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string 'Wybierz z listy kraj' (length=20)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      9 => 
+        object(stdClass)[217]
+          public 'sellFormId' => int 10
+          public 'sellFormTitle' => string 'Województwo' (length=12)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 4
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int 0
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 10
+          public 'sellFormLength' => int 2
+          public 'sellMinValue' => string '0.00' (length=4)
+          public 'sellMaxValue' => string '16.00' (length=5)
+          public 'sellFormDesc' => string ' -- Wybierz województwo -- |dolnośląskie|kujawsko-pomorskie|lubelskie|lubuskie|łódzkie|małopolskie|mazowieckie|opolskie|podkarpackie|podlaskie|pomorskie|śląskie|świętokrzyskie|warmińsko-mazurskie|wielkopolskie|zachodniopomorskie' (length=239)
+          public 'sellFormOptsValues' => string '0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16' (length=40)
+          public 'sellFormFieldDesc' => string 'Wybierz z listy województwo' (length=28)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      10 => 
+        object(stdClass)[218]
+          public 'sellFormId' => int 11
+          public 'sellFormTitle' => string 'Miejscowość' (length=13)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 1
+          public 'sellFormResType' => int 1
+          public 'sellFormDefValue' => int 0
+          public 'sellFormOpt' => int 1
+          public 'sellFormPos' => int 11
+          public 'sellFormLength' => int 100
+          public 'sellMinValue' => string '0.00' (length=4)
+          public 'sellMaxValue' => string '0.00' (length=4)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string 'Wpisz miejscowość' (length=19)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      11 => 
+        object(stdClass)[219]
+          public 'sellFormId' => int 12
+          public 'sellFormTitle' => string 'Koszt przesyłki pokrywa' (length=24)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 5
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int 1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 1
+          public 'sellMinValue' => string '0.00' (length=4)
+          public 'sellMaxValue' => string '1.00' (length=4)
+          public 'sellFormDesc' => string 'Sprzedający|Kupujący' (length=22)
+          public 'sellFormOptsValues' => string '0|1' (length=3)
+          public 'sellFormFieldDesc' => string 'Proszę dokonać wyboru, która ze stron, biorących udział w licytacji, pokryje wszelkie koszty związane z transportem sprzedanego przedmiotu' (length=144)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      12 => 
+        object(stdClass)[220]
+          public 'sellFormId' => int 13
+          public 'sellFormTitle' => string 'Opcje dot. transportu' (length=21)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 6
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int 0
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 13
+          public 'sellFormLength' => int 2
+          public 'sellMinValue' => string '0.00' (length=4)
+          public 'sellMaxValue' => string '63.00' (length=5)
+          public 'sellFormDesc' => string '-|-|-|-|Dodatkowe informacje|Zgadzam się na wysłanie przedmiotu za granicę' (length=77)
+          public 'sellFormOptsValues' => string '1|2|4|8|16|32' (length=13)
+          public 'sellFormFieldDesc' => string 'Wybierz formy przesyłki, jakie oferujesz Kupującym. W przypadku wyboru opcji <b><i>Inne</i></b>, szczegóły wpisz w pole <i><b><font color=blue>Dodatkowe informacje o przesyłce i płatności</font></b></i>' (length=209)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      13 => 
+        object(stdClass)[221]
+          public 'sellFormId' => int 14
+          public 'sellFormTitle' => string 'Formy płatności' (length=17)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 6
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int 0
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 3
+          public 'sellMinValue' => string '0.00' (length=4)
+          public 'sellMaxValue' => string '127.00' (length=6)
+          public 'sellFormDesc' => string 'Zwykły przelew|-|-|-|Inne rodzaje płatności|Wystawiam faktury VAT|-' (length=70)
+          public 'sellFormOptsValues' => string '1|2|4|8|16|32|64' (length=16)
+          public 'sellFormFieldDesc' => string 'Wybierz formy płatności. W przypadku wyboru opcji <i><b>Inne rodzaje płatności</b></i>, szczegóły wpisz w pole <b><i>Dodatkowe informacje o przesyłce i płatności</i></b>' (length=178)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      14 => 
+        object(stdClass)[222]
+          public 'sellFormId' => int 15
+          public 'sellFormTitle' => string 'Opcje dodatkowe' (length=15)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 6
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int 0
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 3
+          public 'sellMinValue' => string '0.00' (length=4)
+          public 'sellMaxValue' => string '127.00' (length=6)
+          public 'sellFormDesc' => string 'Pogrubienie|Miniaturka|Podświetlenie|Wyróżnienie|-|Strona działu|Znak wodny' (length=79)
+          public 'sellFormOptsValues' => string '1|2|4|8|16|32|64' (length=16)
+          public 'sellFormFieldDesc' => string '<p>W skład opcji dodatkowych wchodzą:</p>
+<ul><li><strong>Pogrubienie</strong><br />Twój przedmiot będzie promowany pogrubioną czcionką.<br />Więcej informacji o tej opcji i jej kosztach znajdziesz w <a href="http://allegro.pl/help_item.php?item=61">Pomocy</a>.</li>
+<li><strong>Miniaturka</strong><br />Jeśli dodałeś zdjęcie, możesz skorzystać z tej opcji. Twój przedmiot będzie promowany poprzez umieszczenie pierwszego załadowanego zdjęcia obok nazwy na listach przedmiotów.<br />Więcej i'... (length=1576)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      15 => 
+        object(stdClass)[223]
+          public 'sellFormId' => int 16
+          public 'sellFormTitle' => string 'Zdjęcie 1' (length=10)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 7
+          public 'sellFormResType' => int 7
+          public 'sellFormDefValue' => int 0
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 16
+          public 'sellFormLength' => int 0
+          public 'sellMinValue' => string '0.00' (length=4)
+          public 'sellMaxValue' => string '0.00' (length=4)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string 'Dodanie zdjęcia zdecydowanie zwiększa zainteresowanie Twoją aukcją wśród kupujących. Zdjęcie powinno być w formacie <b>gif, jpg</b> lub <b>png</b>.
+<hr>
+Zdjęcie bądź rysunek Twojego przedmiotu możesz znaleźć np. na stronach WWW producenta sprzętu/przedmiotu, który sprzedajesz; zdjęcie możesz także wykonać sam.
+Kiedy korzystasz ze zdjęć wykonanych przez inne osoby (w tym ze zdjęć umieszczonych na aukcjach innych Użytkowników),
+pamiętaj, aby zapytać autorów/posiadaczy praw au'... (length=1077)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      16 => 
+        object(stdClass)[224]
+          public 'sellFormId' => int 17
+          public 'sellFormTitle' => string 'Zdjęcie 2' (length=10)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 7
+          public 'sellFormResType' => int 7
+          public 'sellFormDefValue' => int 0
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 17
+          public 'sellFormLength' => int 0
+          public 'sellMinValue' => string '0.00' (length=4)
+          public 'sellMaxValue' => string '0.00' (length=4)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string 'Dodanie zdjęcia zdecydowanie zwiększa zainteresowanie Twoją aukcją wśród kupujących. Zdjęcie powinno być w formacie <b>gif, jpg</b> lub <b>png</b>.
+<hr>
+Zdjęcie bądź rysunek Twojego przedmiotu możesz znaleźć np. na stronach WWW producenta sprzętu/przedmiotu, który sprzedajesz; zdjęcie możesz także wykonać sam.
+Kiedy korzystasz ze zdjęć wykonanych przez inne osoby (w tym ze zdjęć umieszczonych na aukcjach innych Użytkowników),
+pamiętaj, aby zapytać autorów/posiadaczy praw au'... (length=1079)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      17 => 
+        object(stdClass)[225]
+          public 'sellFormId' => int 18
+          public 'sellFormTitle' => string 'Zdjęcie 3' (length=10)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 7
+          public 'sellFormResType' => int 7
+          public 'sellFormDefValue' => int 0
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 18
+          public 'sellFormLength' => int 0
+          public 'sellMinValue' => string '0.00' (length=4)
+          public 'sellMaxValue' => string '0.00' (length=4)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string 'Dodanie zdjęcia zdecydowanie zwiększa zainteresowanie Twoją aukcją wśród kupujących. Zdjęcie powinno być w formacie <b>gif, jpg</b> lub <b>png</b>.
+<hr>
+Zdjęcie bądź rysunek Twojego przedmiotu możesz znaleźć np. na stronach WWW producenta sprzętu/przedmiotu, który sprzedajesz; zdjęcie możesz także wykonać sam.
+Kiedy korzystasz ze zdjęć wykonanych przez inne osoby (w tym ze zdjęć umieszczonych na aukcjach innych Użytkowników),
+pamiętaj, aby zapytać autorów/posiadaczy praw au'... (length=1077)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      18 => 
+        object(stdClass)[226]
+          public 'sellFormId' => int 19
+          public 'sellFormTitle' => string 'Zdjęcie 4' (length=10)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 7
+          public 'sellFormResType' => int 7
+          public 'sellFormDefValue' => int 0
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 19
+          public 'sellFormLength' => int 0
+          public 'sellMinValue' => string '0.00' (length=4)
+          public 'sellMaxValue' => string '0.00' (length=4)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string 'Dodanie zdjęcia zdecydowanie zwiększa zainteresowanie Twoją aukcją wśród kupujących. Zdjęcie powinno być w formacie <b>gif, jpg</b> lub <b>png</b>.
+<hr>
+Zdjęcie bądź rysunek Twojego przedmiotu możesz znaleźć np. na stronach WWW producenta sprzętu/przedmiotu, który sprzedajesz; zdjęcie możesz także wykonać sam.
+Kiedy korzystasz ze zdjęć wykonanych przez inne osoby (w tym ze zdjęć umieszczonych na aukcjach innych Użytkowników),
+pamiętaj, aby zapytać autorów/posiadaczy praw au'... (length=1077)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      19 => 
+        object(stdClass)[227]
+          public 'sellFormId' => int 20
+          public 'sellFormTitle' => string 'Zdjęcie 5' (length=10)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 7
+          public 'sellFormResType' => int 7
+          public 'sellFormDefValue' => int 0
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 20
+          public 'sellFormLength' => int 0
+          public 'sellMinValue' => string '0.00' (length=4)
+          public 'sellMaxValue' => string '0.00' (length=4)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string 'Dodanie zdjęcia zdecydowanie zwiększa zainteresowanie Twoją aukcją wśród kupujących. Zdjęcie powinno być w formacie <b>gif, jpg</b> lub <b>png</b>.
+<hr>
+Zdjęcie bądź rysunek Twojego przedmiotu możesz znaleźć np. na stronach WWW producenta sprzętu/przedmiotu, który sprzedajesz; zdjęcie możesz także wykonać sam.
+Kiedy korzystasz ze zdjęć wykonanych przez inne osoby (w tym ze zdjęć umieszczonych na aukcjach innych Użytkowników),
+pamiętaj, aby zapytać autorów/posiadaczy praw au'... (length=1077)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      20 => 
+        object(stdClass)[228]
+          public 'sellFormId' => int 21
+          public 'sellFormTitle' => string 'Zdjęcie 6' (length=10)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 7
+          public 'sellFormResType' => int 7
+          public 'sellFormDefValue' => int 0
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 21
+          public 'sellFormLength' => int 0
+          public 'sellMinValue' => string '0.00' (length=4)
+          public 'sellMaxValue' => string '0.00' (length=4)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string 'Dodanie zdjęcia zdecydowanie zwiększa zainteresowanie Twoją aukcją wśród kupujących. Zdjęcie powinno być w formacie <b>gif, jpg</b> lub <b>png</b>.
+<hr>
+Zdjęcie bądź rysunek Twojego przedmiotu możesz znaleźć np. na stronach WWW producenta sprzętu/przedmiotu, który sprzedajesz; zdjęcie możesz także wykonać sam.
+Kiedy korzystasz ze zdjęć wykonanych przez inne osoby (w tym ze zdjęć umieszczonych na aukcjach innych Użytkowników),
+pamiętaj, aby zapytać autorów/posiadaczy praw au'... (length=1077)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      21 => 
+        object(stdClass)[229]
+          public 'sellFormId' => int 22
+          public 'sellFormTitle' => string 'Zdjęcie 7' (length=10)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 7
+          public 'sellFormResType' => int 7
+          public 'sellFormDefValue' => int 0
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 22
+          public 'sellFormLength' => int 0
+          public 'sellMinValue' => string '0.00' (length=4)
+          public 'sellMaxValue' => string '0.00' (length=4)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string 'Dodanie zdjęcia zdecydowanie zwiększa zainteresowanie Twoją aukcją wśród kupujących. Zdjęcie powinno być w formacie <b>gif, jpg</b> lub <b>png</b>.
+<hr>
+Zdjęcie bądź rysunek Twojego przedmiotu możesz znaleźć np. na stronach WWW producenta sprzętu/przedmiotu, który sprzedajesz; zdjęcie możesz także wykonać sam.
+Kiedy korzystasz ze zdjęć wykonanych przez inne osoby (w tym ze zdjęć umieszczonych na aukcjach innych Użytkowników),
+pamiętaj, aby zapytać autorów/posiadaczy praw au'... (length=1079)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      22 => 
+        object(stdClass)[230]
+          public 'sellFormId' => int 23
+          public 'sellFormTitle' => string 'Zdjęcie 8' (length=10)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 7
+          public 'sellFormResType' => int 7
+          public 'sellFormDefValue' => int 0
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 23
+          public 'sellFormLength' => int 0
+          public 'sellMinValue' => string '0.00' (length=4)
+          public 'sellMaxValue' => string '0.00' (length=4)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string 'Dodanie zdjęcia zdecydowanie zwiększa zainteresowanie Twoją aukcją wśród kupujących. Zdjęcie powinno być w formacie <b>gif, jpg</b> lub <b>png</b>.
+<hr>
+Zdjęcie bądź rysunek Twojego przedmiotu możesz znaleźć np. na stronach WWW producenta sprzętu/przedmiotu, który sprzedajesz; zdjęcie możesz także wykonać sam.
+Kiedy korzystasz ze zdjęć wykonanych przez inne osoby (w tym ze zdjęć umieszczonych na aukcjach innych Użytkowników),
+pamiętaj, aby zapytać autorów/posiadaczy praw au'... (length=1077)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      23 => 
+        object(stdClass)[231]
+          public 'sellFormId' => int 24
+          public 'sellFormTitle' => string 'Dodatkowe informacje o przedmiocie' (length=34)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 8
+          public 'sellFormResType' => int 1
+          public 'sellFormDefValue' => int 0
+          public 'sellFormOpt' => int 1
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 0
+          public 'sellMinValue' => string '0.00' (length=4)
+          public 'sellMaxValue' => string '0.00' (length=4)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string 'Opisz przedmiot jak najdokładniej, uwględniając jego stan (nowy/używany), zalety i wady. 
+Staraj się opisać go uczciwie, podając możliwie dużo szczegółów. W opisie aukcji można używać znaczników HTML.' (length=217)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      24 => 
+        object(stdClass)[232]
+          public 'sellFormId' => int 25
+          public 'sellFormTitle' => string 'Rozszerzenie informacji o przedmiocie' (length=37)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 8
+          public 'sellFormResType' => int 1
+          public 'sellFormDefValue' => int 0
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 0
+          public 'sellMinValue' => string '0.00' (length=4)
+          public 'sellMaxValue' => string '0.00' (length=4)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string 'W polu przekazać można dodatkowy tekst do opisu, w przypadku w którym złożone zostały już oferty kupna i edycja opisu oferty nie jest możliwa. Pole możliwe do wykorzystania wyłącznie przy edycji oferty (doChangeItemFields) - przy próbie przekazania wartości w tym polu przy wystawianiu oferty, zostanie ono zignorowane.' (length=332)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      25 => 
+        object(stdClass)[233]
+          public 'sellFormId' => int 27
+          public 'sellFormTitle' => string 'Dodatkowe informacje o przesyłce i płatności' (length=47)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 8
+          public 'sellFormResType' => int 1
+          public 'sellFormDefValue' => int 0
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 27
+          public 'sellFormLength' => int 500
+          public 'sellMinValue' => string '0.00' (length=4)
+          public 'sellMaxValue' => string '0.00' (length=4)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string 'W polu tym możesz wpisać dodatkowe warunki i informacje, np. <b>koszty wysyłki przy zakupie kilku przedmiotów</b>, <b>numer konta bankowego</b> itp. Pamiętaj jednak, że możesz wpisać maksymalnie <b><font color=red>500</font></b> znaków.' (length=245)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      26 => 
+        object(stdClass)[234]
+          public 'sellFormId' => int 28
+          public 'sellFormTitle' => string 'Sztuki / Komplety / Pary' (length=24)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 4
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int 0
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 28
+          public 'sellFormLength' => int 1
+          public 'sellMinValue' => string '0.00' (length=4)
+          public 'sellMaxValue' => string '2.00' (length=4)
+          public 'sellFormDesc' => string 'Sztuk|Kompletów|Par' (length=20)
+          public 'sellFormOptsValues' => string '0|1|2' (length=5)
+          public 'sellFormFieldDesc' => string '' (length=0)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      27 => 
+        object(stdClass)[235]
+          public 'sellFormId' => int 29
+          public 'sellFormTitle' => string 'Format sprzedaży' (length=17)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 4
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int 0
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 1
+          public 'sellMinValue' => string '0.00' (length=4)
+          public 'sellMaxValue' => string '1.00' (length=4)
+          public 'sellFormDesc' => string 'Tylko Kup Teraz! (bez licytacji) lub Licytacja|Sklep (bez licytacji)' (length=68)
+          public 'sellFormOptsValues' => string '0|1' (length=3)
+          public 'sellFormFieldDesc' => string '' (length=0)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      28 => 
+        object(stdClass)[236]
+          public 'sellFormId' => int 30
+          public 'sellFormTitle' => string 'Automatyczne wznowienie oferty w sklepie' (length=40)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 4
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int 0
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 30
+          public 'sellFormLength' => int 1
+          public 'sellMinValue' => string '0.00' (length=4)
+          public 'sellMaxValue' => string '2.00' (length=4)
+          public 'sellFormDesc' => string 'Nie wznawiaj|Wznów z pełnym zestawem przedmiotów|Wznów tylko z przedmiotami niesprzedanymi' (length=94)
+          public 'sellFormOptsValues' => string '0|1|2' (length=5)
+          public 'sellFormFieldDesc' => string 'Opcje wystawienia przedmiotu w sklepie.' (length=39)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      29 => 
+        object(stdClass)[237]
+          public 'sellFormId' => int 32
+          public 'sellFormTitle' => string 'Kod pocztowy' (length=12)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 1
+          public 'sellFormResType' => int 1
+          public 'sellFormDefValue' => int 0
+          public 'sellFormOpt' => int 1
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 20
+          public 'sellMinValue' => string '0.00' (length=4)
+          public 'sellMaxValue' => string '0.00' (length=4)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '' (length=0)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      30 => 
+        object(stdClass)[238]
+          public 'sellFormId' => int 33
+          public 'sellFormTitle' => string 'Pierwsze konto bankowe' (length=22)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 1
+          public 'sellFormResType' => int 1
+          public 'sellFormDefValue' => int 0
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 33
+          public 'sellFormLength' => int 35
+          public 'sellMinValue' => string '0.00' (length=4)
+          public 'sellMaxValue' => string '0.00' (length=4)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '' (length=0)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      31 => 
+        object(stdClass)[239]
+          public 'sellFormId' => int 34
+          public 'sellFormTitle' => string 'Drugie konto bankowe' (length=20)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 1
+          public 'sellFormResType' => int 1
+          public 'sellFormDefValue' => int 0
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 34
+          public 'sellFormLength' => int 35
+          public 'sellMinValue' => string '0.00' (length=4)
+          public 'sellMaxValue' => string '0.00' (length=4)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '' (length=0)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      32 => 
+        object(stdClass)[240]
+          public 'sellFormId' => int 35
+          public 'sellFormTitle' => string 'Darmowe opcje przesyłki' (length=24)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 6
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int 0
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 1
+          public 'sellMinValue' => string '0.00' (length=4)
+          public 'sellMaxValue' => string '7.00' (length=4)
+          public 'sellFormDesc' => string 'Odbiór osobisty|Przesyłka elektroniczna (e-mail)|Odbiór osobisty po przedpłacie' (length=83)
+          public 'sellFormOptsValues' => string '1|2|4' (length=5)
+          public 'sellFormFieldDesc' => string '' (length=0)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      33 => 
+        object(stdClass)[241]
+          public 'sellFormId' => int 36
+          public 'sellFormTitle' => string 'Paczka pocztowa ekonomiczna (pierwsza sztuka)' (length=45)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '1' (length=1)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      34 => 
+        object(stdClass)[242]
+          public 'sellFormId' => int 37
+          public 'sellFormTitle' => string 'List ekonomiczny (pierwsza sztuka)' (length=34)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '2' (length=1)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      35 => 
+        object(stdClass)[243]
+          public 'sellFormId' => int 38
+          public 'sellFormTitle' => string 'Paczka pocztowa priorytetowa (pierwsza sztuka)' (length=46)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '3' (length=1)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      36 => 
+        object(stdClass)[244]
+          public 'sellFormId' => int 39
+          public 'sellFormTitle' => string 'List priorytetowy (pierwsza sztuka)' (length=35)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '4' (length=1)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      37 => 
+        object(stdClass)[245]
+          public 'sellFormId' => int 40
+          public 'sellFormTitle' => string 'Przesyłka pobraniowa / Paczka48 pobranie (pierwsza sztuka)' (length=59)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '5' (length=1)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      38 => 
+        object(stdClass)[246]
+          public 'sellFormId' => int 41
+          public 'sellFormTitle' => string 'List polecony ekonomiczny (pierwsza sztuka)' (length=43)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '6' (length=1)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      39 => 
+        object(stdClass)[247]
+          public 'sellFormId' => int 42
+          public 'sellFormTitle' => string 'Przesyłka pobraniowa priorytetowa / Paczka24 pobranie (pierwsza sztuka)' (length=72)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '7' (length=1)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      40 => 
+        object(stdClass)[248]
+          public 'sellFormId' => int 43
+          public 'sellFormTitle' => string 'List polecony priorytetowy (pierwsza sztuka)' (length=44)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '8' (length=1)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      41 => 
+        object(stdClass)[249]
+          public 'sellFormId' => int 44
+          public 'sellFormTitle' => string 'Przesyłka kurierska (pierwsza sztuka)' (length=38)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '9' (length=1)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      42 => 
+        object(stdClass)[250]
+          public 'sellFormId' => int 45
+          public 'sellFormTitle' => string 'Przesyłka kurierska pobraniowa (pierwsza sztuka)' (length=49)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '11' (length=2)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      43 => 
+        object(stdClass)[251]
+          public 'sellFormId' => int 46
+          public 'sellFormTitle' => string 'Odbiór w punkcie po przedpłacie - PACZKA W RUCHu (pierwsza sztuka)' (length=68)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '10006' (length=5)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      44 => 
+        object(stdClass)[252]
+          public 'sellFormId' => int 47
+          public 'sellFormTitle' => string 'Odbiór w punkcie po przedpłacie - Paczkomaty 24/7 (pierwsza sztuka)' (length=69)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '10022' (length=5)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      45 => 
+        object(stdClass)[253]
+          public 'sellFormId' => int 48
+          public 'sellFormTitle' => string 'Odbiór w punkcie - PACZKA W RUCHu (pierwsza sztuka)' (length=52)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '20006' (length=5)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      46 => 
+        object(stdClass)[254]
+          public 'sellFormId' => int 49
+          public 'sellFormTitle' => string 'Odbiór w punkcie - Paczkomaty 24/7 (pierwsza sztuka)' (length=53)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '20022' (length=5)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      47 => 
+        object(stdClass)[255]
+          public 'sellFormId' => int 50
+          public 'sellFormTitle' => string 'Allegro Polecony InPost (pierwsza sztuka)' (length=41)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '16' (length=2)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      48 => 
+        object(stdClass)[256]
+          public 'sellFormId' => int 51
+          public 'sellFormTitle' => string 'Odbiór w punkcie po przedpłacie - E-PRZESYŁKA / Paczka48 Odbiór w Punkcie (pierwsza sztuka)' (length=95)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '10061' (length=5)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      49 => 
+        object(stdClass)[257]
+          public 'sellFormId' => int 52
+          public 'sellFormTitle' => string 'Odbiór w punkcie - E-PRZESYŁKA / Paczka48 Odbiór w Punkcie (pierwsza sztuka)' (length=79)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '20061' (length=5)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      50 => 
+        object(stdClass)[258]
+          public 'sellFormId' => int 53
+          public 'sellFormTitle' => string 'Pocztex Kurier48 (pierwsza sztuka)' (length=34)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '21' (length=2)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      51 => 
+        object(stdClass)[259]
+          public 'sellFormId' => int 54
+          public 'sellFormTitle' => string 'Pocztex Kurier48 pobraniowy (pierwsza sztuka)' (length=45)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '22' (length=2)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      52 => 
+        object(stdClass)[260]
+          public 'sellFormId' => int 55
+          public 'sellFormTitle' => string 'Paczka24 (pierwsza sztuka)' (length=26)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '30' (length=2)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      53 => 
+        object(stdClass)[261]
+          public 'sellFormId' => int 56
+          public 'sellFormTitle' => string 'Paczka48 (pierwsza sztuka)' (length=26)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '31' (length=2)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      54 => 
+        object(stdClass)[263]
+          public 'sellFormId' => int 57
+          public 'sellFormTitle' => string 'Odbiór w punkcie po przedpłacie - Paczka24 Odbiór w Punkcie (pierwsza sztuka)' (length=80)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '10060' (length=5)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      55 => 
+        object(stdClass)[265]
+          public 'sellFormId' => int 58
+          public 'sellFormTitle' => string 'Odbiór w punkcie - Paczka24 Odbiór w Punkcie (pierwsza sztuka)' (length=64)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '20060' (length=5)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      56 => 
+        object(stdClass)[203]
+          public 'sellFormId' => int 59
+          public 'sellFormTitle' => string 'Odbiór w punkcie po przedpłacie - Allegro Paczkomaty InPost (pierwsza sztuka)' (length=79)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '10023' (length=5)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      57 => 
+        object(stdClass)[202]
+          public 'sellFormId' => int 60
+          public 'sellFormTitle' => string 'Odbiór w punkcie - Allegro Paczkomaty InPost (pierwsza sztuka)' (length=63)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '20023' (length=5)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      58 => 
+        object(stdClass)[201]
+          public 'sellFormId' => int 61
+          public 'sellFormTitle' => string 'Allegro Kurier InPost (pierwsza sztuka)' (length=39)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '17' (length=2)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      59 => 
+        object(stdClass)[200]
+          public 'sellFormId' => int 62
+          public 'sellFormTitle' => string 'Allegro Kurier InPost (za pobraniem) (pierwsza sztuka)' (length=54)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '18' (length=2)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      60 => 
+        object(stdClass)[199]
+          public 'sellFormId' => int 63
+          public 'sellFormTitle' => string 'Niemcy (pierwsza sztuka)' (length=24)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '120' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      61 => 
+        object(stdClass)[198]
+          public 'sellFormId' => int 64
+          public 'sellFormTitle' => string 'Wielka Brytania (pierwsza sztuka)' (length=33)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '122' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      62 => 
+        object(stdClass)[197]
+          public 'sellFormId' => int 65
+          public 'sellFormTitle' => string 'Czechy (pierwsza sztuka)' (length=24)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '124' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      63 => 
+        object(stdClass)[196]
+          public 'sellFormId' => int 66
+          public 'sellFormTitle' => string 'Irlandia (pierwsza sztuka)' (length=26)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '126' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      64 => 
+        object(stdClass)[195]
+          public 'sellFormId' => int 67
+          public 'sellFormTitle' => string 'Rosja (pierwsza sztuka)' (length=23)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '128' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      65 => 
+        object(stdClass)[194]
+          public 'sellFormId' => int 68
+          public 'sellFormTitle' => string 'Słowacja (pierwsza sztuka)' (length=27)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '130' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      66 => 
+        object(stdClass)[193]
+          public 'sellFormId' => int 69
+          public 'sellFormTitle' => string 'Szwecja (pierwsza sztuka)' (length=25)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '132' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      67 => 
+        object(stdClass)[192]
+          public 'sellFormId' => int 70
+          public 'sellFormTitle' => string 'Holandia (pierwsza sztuka)' (length=26)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '134' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      68 => 
+        object(stdClass)[191]
+          public 'sellFormId' => int 71
+          public 'sellFormTitle' => string 'Litwa (pierwsza sztuka)' (length=23)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '136' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      69 => 
+        object(stdClass)[190]
+          public 'sellFormId' => int 72
+          public 'sellFormTitle' => string 'Białoruś (pierwsza sztuka)' (length=28)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '138' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      70 => 
+        object(stdClass)[189]
+          public 'sellFormId' => int 73
+          public 'sellFormTitle' => string 'Norwegia (pierwsza sztuka)' (length=26)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '140' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      71 => 
+        object(stdClass)[188]
+          public 'sellFormId' => int 74
+          public 'sellFormTitle' => string 'Ukraina (pierwsza sztuka)' (length=25)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '142' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      72 => 
+        object(stdClass)[187]
+          public 'sellFormId' => int 75
+          public 'sellFormTitle' => string 'Włochy (pierwsza sztuka)' (length=25)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '144' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      73 => 
+        object(stdClass)[186]
+          public 'sellFormId' => int 76
+          public 'sellFormTitle' => string 'Francja (pierwsza sztuka)' (length=25)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '146' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      74 => 
+        object(stdClass)[185]
+          public 'sellFormId' => int 77
+          public 'sellFormTitle' => string 'Belgia (pierwsza sztuka)' (length=24)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '148' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      75 => 
+        object(stdClass)[184]
+          public 'sellFormId' => int 78
+          public 'sellFormTitle' => string 'Dania (pierwsza sztuka)' (length=23)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '150' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      76 => 
+        object(stdClass)[183]
+          public 'sellFormId' => int 79
+          public 'sellFormTitle' => string 'Hiszpania (pierwsza sztuka)' (length=27)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '152' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      77 => 
+        object(stdClass)[182]
+          public 'sellFormId' => int 80
+          public 'sellFormTitle' => string 'Austria (pierwsza sztuka)' (length=25)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '154' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      78 => 
+        object(stdClass)[181]
+          public 'sellFormId' => int 136
+          public 'sellFormTitle' => string 'Paczka pocztowa ekonomiczna (kolejna sztuka)' (length=44)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '1' (length=1)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      79 => 
+        object(stdClass)[180]
+          public 'sellFormId' => int 137
+          public 'sellFormTitle' => string 'List ekonomiczny (kolejna sztuka)' (length=33)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '2' (length=1)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      80 => 
+        object(stdClass)[179]
+          public 'sellFormId' => int 138
+          public 'sellFormTitle' => string 'Paczka pocztowa priorytetowa (kolejna sztuka)' (length=45)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '3' (length=1)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      81 => 
+        object(stdClass)[178]
+          public 'sellFormId' => int 139
+          public 'sellFormTitle' => string 'List priorytetowy (kolejna sztuka)' (length=34)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '4' (length=1)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      82 => 
+        object(stdClass)[177]
+          public 'sellFormId' => int 140
+          public 'sellFormTitle' => string 'Przesyłka pobraniowa / Paczka48 pobranie (kolejna sztuka)' (length=58)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '5' (length=1)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      83 => 
+        object(stdClass)[176]
+          public 'sellFormId' => int 141
+          public 'sellFormTitle' => string 'List polecony ekonomiczny (kolejna sztuka)' (length=42)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '6' (length=1)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      84 => 
+        object(stdClass)[175]
+          public 'sellFormId' => int 142
+          public 'sellFormTitle' => string 'Przesyłka pobraniowa priorytetowa / Paczka24 pobranie (kolejna sztuka)' (length=71)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '7' (length=1)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      85 => 
+        object(stdClass)[174]
+          public 'sellFormId' => int 143
+          public 'sellFormTitle' => string 'List polecony priorytetowy (kolejna sztuka)' (length=43)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '8' (length=1)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      86 => 
+        object(stdClass)[173]
+          public 'sellFormId' => int 144
+          public 'sellFormTitle' => string 'Przesyłka kurierska (kolejna sztuka)' (length=37)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '9' (length=1)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      87 => 
+        object(stdClass)[172]
+          public 'sellFormId' => int 145
+          public 'sellFormTitle' => string 'Przesyłka kurierska pobraniowa (kolejna sztuka)' (length=48)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '11' (length=2)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      88 => 
+        object(stdClass)[171]
+          public 'sellFormId' => int 146
+          public 'sellFormTitle' => string 'Odbiór w punkcie po przedpłacie - PACZKA W RUCHu (kolejna sztuka)' (length=67)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '10006' (length=5)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      89 => 
+        object(stdClass)[170]
+          public 'sellFormId' => int 147
+          public 'sellFormTitle' => string 'Odbiór w punkcie po przedpłacie - Paczkomaty 24/7 (kolejna sztuka)' (length=68)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '10022' (length=5)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      90 => 
+        object(stdClass)[169]
+          public 'sellFormId' => int 148
+          public 'sellFormTitle' => string 'Odbiór w punkcie - PACZKA W RUCHu (kolejna sztuka)' (length=51)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '20006' (length=5)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      91 => 
+        object(stdClass)[168]
+          public 'sellFormId' => int 149
+          public 'sellFormTitle' => string 'Odbiór w punkcie - Paczkomaty 24/7 (kolejna sztuka)' (length=52)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '20022' (length=5)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      92 => 
+        object(stdClass)[167]
+          public 'sellFormId' => int 150
+          public 'sellFormTitle' => string 'Allegro Polecony InPost (kolejna sztuka)' (length=40)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '16' (length=2)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      93 => 
+        object(stdClass)[166]
+          public 'sellFormId' => int 151
+          public 'sellFormTitle' => string 'Odbiór w punkcie po przedpłacie - E-PRZESYŁKA / Paczka48 Odbiór w Punkcie (kolejna sztuka)' (length=94)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '10061' (length=5)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      94 => 
+        object(stdClass)[165]
+          public 'sellFormId' => int 152
+          public 'sellFormTitle' => string 'Odbiór w punkcie - E-PRZESYŁKA / Paczka48 Odbiór w Punkcie (kolejna sztuka)' (length=78)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '20061' (length=5)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      95 => 
+        object(stdClass)[164]
+          public 'sellFormId' => int 153
+          public 'sellFormTitle' => string 'Pocztex Kurier48 (kolejna sztuka)' (length=33)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '21' (length=2)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      96 => 
+        object(stdClass)[163]
+          public 'sellFormId' => int 154
+          public 'sellFormTitle' => string 'Pocztex Kurier48 pobraniowy (kolejna sztuka)' (length=44)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '22' (length=2)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      97 => 
+        object(stdClass)[162]
+          public 'sellFormId' => int 155
+          public 'sellFormTitle' => string 'Paczka24 (kolejna sztuka)' (length=25)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '30' (length=2)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      98 => 
+        object(stdClass)[161]
+          public 'sellFormId' => int 156
+          public 'sellFormTitle' => string 'Paczka48 (kolejna sztuka)' (length=25)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '31' (length=2)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      99 => 
+        object(stdClass)[160]
+          public 'sellFormId' => int 157
+          public 'sellFormTitle' => string 'Odbiór w punkcie po przedpłacie - Paczka24 Odbiór w Punkcie (kolejna sztuka)' (length=79)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '10060' (length=5)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      100 => 
+        object(stdClass)[159]
+          public 'sellFormId' => int 158
+          public 'sellFormTitle' => string 'Odbiór w punkcie - Paczka24 Odbiór w Punkcie (kolejna sztuka)' (length=63)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '20060' (length=5)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      101 => 
+        object(stdClass)[158]
+          public 'sellFormId' => int 159
+          public 'sellFormTitle' => string 'Odbiór w punkcie po przedpłacie - Allegro Paczkomaty InPost (kolejna sztuka)' (length=78)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '10023' (length=5)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      102 => 
+        object(stdClass)[157]
+          public 'sellFormId' => int 160
+          public 'sellFormTitle' => string 'Odbiór w punkcie - Allegro Paczkomaty InPost (kolejna sztuka)' (length=62)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '20023' (length=5)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      103 => 
+        object(stdClass)[156]
+          public 'sellFormId' => int 161
+          public 'sellFormTitle' => string 'Allegro Kurier InPost (kolejna sztuka)' (length=38)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '17' (length=2)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      104 => 
+        object(stdClass)[155]
+          public 'sellFormId' => int 162
+          public 'sellFormTitle' => string 'Allegro Kurier InPost (za pobraniem) (kolejna sztuka)' (length=53)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '18' (length=2)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      105 => 
+        object(stdClass)[154]
+          public 'sellFormId' => int 163
+          public 'sellFormTitle' => string 'Niemcy (kolejna sztuka)' (length=23)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '120' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      106 => 
+        object(stdClass)[153]
+          public 'sellFormId' => int 164
+          public 'sellFormTitle' => string 'Wielka Brytania (kolejna sztuka)' (length=32)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '122' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      107 => 
+        object(stdClass)[152]
+          public 'sellFormId' => int 165
+          public 'sellFormTitle' => string 'Czechy (kolejna sztuka)' (length=23)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '124' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      108 => 
+        object(stdClass)[151]
+          public 'sellFormId' => int 166
+          public 'sellFormTitle' => string 'Irlandia (kolejna sztuka)' (length=25)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '126' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      109 => 
+        object(stdClass)[150]
+          public 'sellFormId' => int 167
+          public 'sellFormTitle' => string 'Rosja (kolejna sztuka)' (length=22)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '128' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      110 => 
+        object(stdClass)[149]
+          public 'sellFormId' => int 168
+          public 'sellFormTitle' => string 'Słowacja (kolejna sztuka)' (length=26)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '130' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      111 => 
+        object(stdClass)[148]
+          public 'sellFormId' => int 169
+          public 'sellFormTitle' => string 'Szwecja (kolejna sztuka)' (length=24)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '132' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      112 => 
+        object(stdClass)[147]
+          public 'sellFormId' => int 170
+          public 'sellFormTitle' => string 'Holandia (kolejna sztuka)' (length=25)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '134' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      113 => 
+        object(stdClass)[146]
+          public 'sellFormId' => int 171
+          public 'sellFormTitle' => string 'Litwa (kolejna sztuka)' (length=22)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '136' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      114 => 
+        object(stdClass)[145]
+          public 'sellFormId' => int 172
+          public 'sellFormTitle' => string 'Białoruś (kolejna sztuka)' (length=27)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '138' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      115 => 
+        object(stdClass)[144]
+          public 'sellFormId' => int 173
+          public 'sellFormTitle' => string 'Norwegia (kolejna sztuka)' (length=25)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '140' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      116 => 
+        object(stdClass)[143]
+          public 'sellFormId' => int 174
+          public 'sellFormTitle' => string 'Ukraina (kolejna sztuka)' (length=24)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '142' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      117 => 
+        object(stdClass)[142]
+          public 'sellFormId' => int 175
+          public 'sellFormTitle' => string 'Włochy (kolejna sztuka)' (length=24)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '144' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      118 => 
+        object(stdClass)[141]
+          public 'sellFormId' => int 176
+          public 'sellFormTitle' => string 'Francja (kolejna sztuka)' (length=24)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '146' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      119 => 
+        object(stdClass)[140]
+          public 'sellFormId' => int 177
+          public 'sellFormTitle' => string 'Belgia (kolejna sztuka)' (length=23)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '148' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      120 => 
+        object(stdClass)[266]
+          public 'sellFormId' => int 178
+          public 'sellFormTitle' => string 'Dania (kolejna sztuka)' (length=22)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '150' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      121 => 
+        object(stdClass)[267]
+          public 'sellFormId' => int 179
+          public 'sellFormTitle' => string 'Hiszpania (kolejna sztuka)' (length=26)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '152' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      122 => 
+        object(stdClass)[268]
+          public 'sellFormId' => int 180
+          public 'sellFormTitle' => string 'Austria (kolejna sztuka)' (length=24)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 3
+          public 'sellFormResType' => int 3
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 10
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '1000000.00' (length=10)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '154' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      123 => 
+        object(stdClass)[269]
+          public 'sellFormId' => int 236
+          public 'sellFormTitle' => string 'Paczka pocztowa ekonomiczna (ilość w paczce)' (length=46)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '1' (length=1)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      124 => 
+        object(stdClass)[270]
+          public 'sellFormId' => int 237
+          public 'sellFormTitle' => string 'List ekonomiczny (ilość w paczce)' (length=35)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '2' (length=1)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      125 => 
+        object(stdClass)[271]
+          public 'sellFormId' => int 238
+          public 'sellFormTitle' => string 'Paczka pocztowa priorytetowa (ilość w paczce)' (length=47)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '3' (length=1)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      126 => 
+        object(stdClass)[272]
+          public 'sellFormId' => int 239
+          public 'sellFormTitle' => string 'List priorytetowy (ilość w paczce)' (length=36)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '4' (length=1)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      127 => 
+        object(stdClass)[273]
+          public 'sellFormId' => int 240
+          public 'sellFormTitle' => string 'Przesyłka pobraniowa / Paczka48 pobranie (ilość w paczce)' (length=60)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '5' (length=1)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      128 => 
+        object(stdClass)[274]
+          public 'sellFormId' => int 241
+          public 'sellFormTitle' => string 'List polecony ekonomiczny (ilość w paczce)' (length=44)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '6' (length=1)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      129 => 
+        object(stdClass)[275]
+          public 'sellFormId' => int 242
+          public 'sellFormTitle' => string 'Przesyłka pobraniowa priorytetowa / Paczka24 pobranie (ilość w paczce)' (length=73)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '7' (length=1)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      130 => 
+        object(stdClass)[276]
+          public 'sellFormId' => int 243
+          public 'sellFormTitle' => string 'List polecony priorytetowy (ilość w paczce)' (length=45)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '8' (length=1)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      131 => 
+        object(stdClass)[277]
+          public 'sellFormId' => int 244
+          public 'sellFormTitle' => string 'Przesyłka kurierska (ilość w paczce)' (length=39)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '9' (length=1)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      132 => 
+        object(stdClass)[278]
+          public 'sellFormId' => int 245
+          public 'sellFormTitle' => string 'Przesyłka kurierska pobraniowa (ilość w paczce)' (length=50)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '11' (length=2)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      133 => 
+        object(stdClass)[279]
+          public 'sellFormId' => int 246
+          public 'sellFormTitle' => string 'Odbiór w punkcie po przedpłacie - PACZKA W RUCHu (ilość w paczce)' (length=69)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '10006' (length=5)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      134 => 
+        object(stdClass)[280]
+          public 'sellFormId' => int 247
+          public 'sellFormTitle' => string 'Odbiór w punkcie po przedpłacie - Paczkomaty 24/7 (ilość w paczce)' (length=70)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '10022' (length=5)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      135 => 
+        object(stdClass)[281]
+          public 'sellFormId' => int 248
+          public 'sellFormTitle' => string 'Odbiór w punkcie - PACZKA W RUCHu (ilość w paczce)' (length=53)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '20006' (length=5)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      136 => 
+        object(stdClass)[282]
+          public 'sellFormId' => int 249
+          public 'sellFormTitle' => string 'Odbiór w punkcie - Paczkomaty 24/7 (ilość w paczce)' (length=54)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '20022' (length=5)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      137 => 
+        object(stdClass)[283]
+          public 'sellFormId' => int 250
+          public 'sellFormTitle' => string 'Allegro Polecony InPost (ilość w paczce)' (length=42)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '16' (length=2)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      138 => 
+        object(stdClass)[284]
+          public 'sellFormId' => int 251
+          public 'sellFormTitle' => string 'Odbiór w punkcie po przedpłacie - E-PRZESYŁKA / Paczka48 Odbiór w Punkcie (ilość w paczce)' (length=96)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '10061' (length=5)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      139 => 
+        object(stdClass)[285]
+          public 'sellFormId' => int 252
+          public 'sellFormTitle' => string 'Odbiór w punkcie - E-PRZESYŁKA / Paczka48 Odbiór w Punkcie (ilość w paczce)' (length=80)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '20061' (length=5)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      140 => 
+        object(stdClass)[286]
+          public 'sellFormId' => int 253
+          public 'sellFormTitle' => string 'Pocztex Kurier48 (ilość w paczce)' (length=35)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '21' (length=2)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      141 => 
+        object(stdClass)[287]
+          public 'sellFormId' => int 254
+          public 'sellFormTitle' => string 'Pocztex Kurier48 pobraniowy (ilość w paczce)' (length=46)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '22' (length=2)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      142 => 
+        object(stdClass)[288]
+          public 'sellFormId' => int 255
+          public 'sellFormTitle' => string 'Paczka24 (ilość w paczce)' (length=27)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '30' (length=2)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      143 => 
+        object(stdClass)[289]
+          public 'sellFormId' => int 256
+          public 'sellFormTitle' => string 'Paczka48 (ilość w paczce)' (length=27)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '31' (length=2)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      144 => 
+        object(stdClass)[290]
+          public 'sellFormId' => int 257
+          public 'sellFormTitle' => string 'Odbiór w punkcie po przedpłacie - Paczka24 Odbiór w Punkcie (ilość w paczce)' (length=81)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '10060' (length=5)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      145 => 
+        object(stdClass)[291]
+          public 'sellFormId' => int 258
+          public 'sellFormTitle' => string 'Odbiór w punkcie - Paczka24 Odbiór w Punkcie (ilość w paczce)' (length=65)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '20060' (length=5)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      146 => 
+        object(stdClass)[292]
+          public 'sellFormId' => int 259
+          public 'sellFormTitle' => string 'Odbiór w punkcie po przedpłacie - Allegro Paczkomaty InPost (ilość w paczce)' (length=80)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '10023' (length=5)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      147 => 
+        object(stdClass)[293]
+          public 'sellFormId' => int 260
+          public 'sellFormTitle' => string 'Odbiór w punkcie - Allegro Paczkomaty InPost (ilość w paczce)' (length=64)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '20023' (length=5)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      148 => 
+        object(stdClass)[294]
+          public 'sellFormId' => int 261
+          public 'sellFormTitle' => string 'Allegro Kurier InPost (ilość w paczce)' (length=40)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '17' (length=2)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      149 => 
+        object(stdClass)[295]
+          public 'sellFormId' => int 262
+          public 'sellFormTitle' => string 'Allegro Kurier InPost (za pobraniem) (ilość w paczce)' (length=55)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '18' (length=2)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      150 => 
+        object(stdClass)[296]
+          public 'sellFormId' => int 263
+          public 'sellFormTitle' => string 'Niemcy (ilość w paczce)' (length=25)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '120' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      151 => 
+        object(stdClass)[297]
+          public 'sellFormId' => int 264
+          public 'sellFormTitle' => string 'Wielka Brytania (ilość w paczce)' (length=34)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '122' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      152 => 
+        object(stdClass)[298]
+          public 'sellFormId' => int 265
+          public 'sellFormTitle' => string 'Czechy (ilość w paczce)' (length=25)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '124' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      153 => 
+        object(stdClass)[299]
+          public 'sellFormId' => int 266
+          public 'sellFormTitle' => string 'Irlandia (ilość w paczce)' (length=27)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '126' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      154 => 
+        object(stdClass)[300]
+          public 'sellFormId' => int 267
+          public 'sellFormTitle' => string 'Rosja (ilość w paczce)' (length=24)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '128' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      155 => 
+        object(stdClass)[301]
+          public 'sellFormId' => int 268
+          public 'sellFormTitle' => string 'Słowacja (ilość w paczce)' (length=28)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '130' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      156 => 
+        object(stdClass)[302]
+          public 'sellFormId' => int 269
+          public 'sellFormTitle' => string 'Szwecja (ilość w paczce)' (length=26)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '132' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      157 => 
+        object(stdClass)[303]
+          public 'sellFormId' => int 270
+          public 'sellFormTitle' => string 'Holandia (ilość w paczce)' (length=27)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '134' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      158 => 
+        object(stdClass)[304]
+          public 'sellFormId' => int 271
+          public 'sellFormTitle' => string 'Litwa (ilość w paczce)' (length=24)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '136' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      159 => 
+        object(stdClass)[305]
+          public 'sellFormId' => int 272
+          public 'sellFormTitle' => string 'Białoruś (ilość w paczce)' (length=29)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '138' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      160 => 
+        object(stdClass)[306]
+          public 'sellFormId' => int 273
+          public 'sellFormTitle' => string 'Norwegia (ilość w paczce)' (length=27)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '140' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      161 => 
+        object(stdClass)[307]
+          public 'sellFormId' => int 274
+          public 'sellFormTitle' => string 'Ukraina (ilość w paczce)' (length=26)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '142' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      162 => 
+        object(stdClass)[308]
+          public 'sellFormId' => int 275
+          public 'sellFormTitle' => string 'Włochy (ilość w paczce)' (length=26)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '144' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      163 => 
+        object(stdClass)[309]
+          public 'sellFormId' => int 276
+          public 'sellFormTitle' => string 'Francja (ilość w paczce)' (length=26)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '146' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      164 => 
+        object(stdClass)[310]
+          public 'sellFormId' => int 277
+          public 'sellFormTitle' => string 'Belgia (ilość w paczce)' (length=25)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '148' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      165 => 
+        object(stdClass)[311]
+          public 'sellFormId' => int 278
+          public 'sellFormTitle' => string 'Dania (ilość w paczce)' (length=24)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '150' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      166 => 
+        object(stdClass)[312]
+          public 'sellFormId' => int 279
+          public 'sellFormTitle' => string 'Hiszpania (ilość w paczce)' (length=28)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '152' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      167 => 
+        object(stdClass)[313]
+          public 'sellFormId' => int 280
+          public 'sellFormTitle' => string 'Austria (ilość w paczce)' (length=26)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 2
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int -1
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 5
+          public 'sellMinValue' => string '-1.00' (length=5)
+          public 'sellMaxValue' => string '99999.00' (length=8)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '154' (length=3)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      168 => 
+        object(stdClass)[314]
+          public 'sellFormId' => int 337
+          public 'sellFormTitle' => string 'Europejski Kod Towarowy' (length=23)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 1
+          public 'sellFormResType' => int 1
+          public 'sellFormDefValue' => int 0
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 88
+          public 'sellFormLength' => int 13
+          public 'sellMinValue' => string '0.00' (length=4)
+          public 'sellMaxValue' => string '0.00' (length=4)
+          public 'sellFormDesc' => string '' (length=0)
+          public 'sellFormOptsValues' => string '' (length=0)
+          public 'sellFormFieldDesc' => string '' (length=0)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
+      169 => 
+        object(stdClass)[315]
+          public 'sellFormId' => int 340
+          public 'sellFormTitle' => string 'Wysyłka w ciągu' (length=17)
+          public 'sellFormCat' => int 0
+          public 'sellFormType' => int 4
+          public 'sellFormResType' => int 2
+          public 'sellFormDefValue' => int 0
+          public 'sellFormOpt' => int 8
+          public 'sellFormPos' => int 0
+          public 'sellFormLength' => int 3
+          public 'sellMinValue' => string '0.00' (length=4)
+          public 'sellMaxValue' => string '504.00' (length=6)
+          public 'sellFormDesc' => string '-- Wybierz --|0|24|48|72|96|120|168|240|336|504' (length=47)
+          public 'sellFormOptsValues' => string '0|1|24|48|72|96|120|168|240|336|504' (length=35)
+          public 'sellFormFieldDesc' => string 'Określ, ile czasu zajmie Ci wysłanie przedmiotu Kupującemu.' (length=62)
+          public 'sellFormParamId' => int 0
+          public 'sellFormParamValues' => string '' (length=0)
+          public 'sellFormParentId' => int 0
+          public 'sellFormParentValue' => string '' (length=0)
+          public 'sellFormUnit' => string '' (length=0)
+          public 'sellFormOptions' => int 0
